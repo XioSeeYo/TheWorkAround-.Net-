@@ -1,0 +1,6 @@
+F:\VB_TESTS\TheWorkAround(.NET)\TheWorkAround(.NET)\obj\Debug\TheWorkAround(.NET).vbproj.AssemblyReference.cache
+F:\VB_TESTS\TheWorkAround(.NET)\TheWorkAround(.NET)\obj\Debug\TheWorkAround(.NET).vbproj.SuggestedBindingRedirects.cache
+F:\VB_TESTS\TheWorkAround(.NET)\TheWorkAround(.NET)\obj\Debug\TheWorkAround_.NET_.frmMain.resources
+F:\VB_TESTS\TheWorkAround(.NET)\TheWorkAround(.NET)\obj\Debug\TheWorkAround_.NET_.Resources.resources
+F:\VB_TESTS\TheWorkAround(.NET)\TheWorkAround(.NET)\obj\Debug\TheWorkAround(.NET).vbproj.GenerateResource.cache
+F:\VB_TESTS\TheWorkAround(.NET)\TheWorkAround(.NET)\obj\Debug\TheWorkAround(.NET).vbproj.CoreCompileInputs.cache

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TheWorkAround.exe" version="1.0.0.1" publicKeyToken="545b110d0fb1d65c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TheWorkAround" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TheWorkAround.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TheWorkAround.exe" size="21984">
+      <assemblyIdentity name="TheWorkAround" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>s1ellHmHoK1E5ln8FGOcgHf9Ns+lGd5rDPsuC4gZjXU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TheWorkAround.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-LIRUHU9\19373" issuerKeyHash="d53fdfeaf35e427412cfe99b2c1a5ec140b74d44" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8rvXZSMpmMZh33EGFbq8Mhmj5g7uoUmBgZkNDazNmQ0=</DigestValue></Reference></SignedInfo><SignatureValue>DL1AOFfrDg5NgO93YH/OBmPZgBHiHeZQIPYW0KhJ9Kxf5kpdjuaxyR7WFYnhc1kxDD8W7/bK8UleAPQLWYpoKlTi6CdSPdkhl+LAvWb3fhbMkwSt0Cfvin3moa6pYNDBLaq5nzsIuutHgJY+bKpHbpDTMWm3stiTZhipb3AMw5U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>00+CNQz1g/yI7uochU9M+vOr2vnHEac3bUUTbkxIN6hk2m2w7F4XymFMNvBPo5dZ/QKb9OxXGUhMMl7tfG+lXd341OKdvmS6ZNVppRghw8FJzcY96bnT8bzMXyZUI90wRpfsCaP9gP1WQGXjOWor/aLpJQJKE24PdP0CG+kwNxE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0d99cdac0d0d99818149a1ee0ee6a31932bcba150671df61c698292365d7bbf2" Description="" Url=""><as:assemblyIdentity name="TheWorkAround.exe" version="1.0.0.1" publicKeyToken="545b110d0fb1d65c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-LIRUHU9\19373</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OxskwVD+DE8nmd7UtJQaS2WN2eXQpC1XONoGivLyCZs=</DigestValue></Reference></SignedInfo><SignatureValue>oYfZTKBzuxTO7/odoeNrJhY77xBFg3VFHVQGLURXDp2dHzjWktu9GVRcc8DiqmRIIxOk5q6eWghrNGcrOz4Qv8+ByDjq95oqVRpJ5FZrqpJ6obKqPW7W9zDoKtedvMRuTlq7WgDOzynyVxNBnlsWKkbpciy1+8MnGXkCbqQhftc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>00+CNQz1g/yI7uochU9M+vOr2vnHEac3bUUTbkxIN6hk2m2w7F4XymFMNvBPo5dZ/QKb9OxXGUhMMl7tfG+lXd341OKdvmS6ZNVppRghw8FJzcY96bnT8bzMXyZUI90wRpfsCaP9gP1WQGXjOWor/aLpJQJKE24PdP0CG+kwNxE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQc6yDFZc1W55NSDJF4JxecDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEwASQBSAFUASABVADkAXAAxADkAMwA3ADMwHhcNMjMwMzI5MDQzOTQzWhcNMjQwMzI4MTAzOTQzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEwASQBSAFUASABVADkAXAAxADkAMwA3ADMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANNPgjUM9YP8iO7qHIVPTPrzq9r5xxGnN21FE25MSDeoZNptsOxeF8phTDbwT6OXWf0Cm/TsVxlITDJe7XxvpV3d+NTinb5kumTVaaUYIcPBSc3GPem50/G8zF8mVCPdMEaX7Amj/YD9VkBl4zlqK/2i6SUCShNuD3T9AhvpMDcRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAovKIBCO8wA8qqsdcd/4Tbb8h1kz2FOpkfKJw4s8q9ogFJBYXGBM6FoPSPPVg56s3jq/Z5W4mrM89yYZlTctkxAE85stKYM54SWM4+ciorL8YKtykSXvYdP0LGVPRNJgde0aTPPwCxhQsgjAo9fJcGnaM1qLJjdagEzkJSMH2S00=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
